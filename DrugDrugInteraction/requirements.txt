@@ -1,0 +1,53 @@
+ase==3.22.1
+Brotli @ file:///D:/bld/brotli-split_1648883782420/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1707022139797/work/certifi
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1698833585322/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+cycler==0.11.0
+decorator==4.4.2
+fonttools==4.38.0
+googledrivedownloader @ file:///home/conda/feedstock_root/build_artifacts/googledrivedownloader_1619807768586/work
+h5py==3.8.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1701026962277/work
+importlib-metadata==4.13.0
+isodate==0.6.1
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1655912915439/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1691577114857/work
+kiwisolver==1.4.5
+llvmlite==0.39.1
+MarkupSafe @ file:///D:/bld/markupsafe_1654706097181/work
+matplotlib==3.5.3
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1617499744980/work
+numba==0.56.4
+numpy @ file:///D:/bld/numpy_1649806536290/work
+packaging==24.0
+pandas @ file:///D:/bld/pandas_1627224175793/work
+Pillow==9.3.0
+protobuf==3.20.3
+psutil==5.9.8
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1709721012883/work
+PySocks @ file:///D:/bld/pysocks_1648857448477/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+python-louvain @ file:///home/conda/feedstock_root/build_artifacts/python-louvain_1674586957342/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+PyYAML @ file:///D:/bld/pyyaml_1648757357341/work
+rdflib==6.3.2
+rdkit==2023.3.2
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
+scikit-learn==0.22.1
+scipy @ file:///C:/bld/scipy_1637806996411/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+tensorboardX @ file:///tmp/build/80754af9/tensorboardx_1621440489103/work
+threadpoolctl==3.1.0
+torch==1.8.1+cu111
+torch-scatter==2.0.8
+torch-sparse==0.6.12
+torch_geometric==1.7.0
+torchaudio==0.8.1
+torchvision==0.9.1+cu111
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1707598593068/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1688315532570/work
+urllib3==2.0.7
+win-inet-pton @ file:///D:/bld/win_inet_pton_1667051142467/work
+yacs @ file:///home/conda/feedstock_root/build_artifacts/yacs_1645705974477/work
+zipp==3.15.0
