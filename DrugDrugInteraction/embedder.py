@@ -10,40 +10,48 @@ random.seed(0)
 from tensorboardX import SummaryWriter
 import os
 
-from argument import config2string
-from utils import create_batch_mask, get_roc_score
-from data import Dataclass
+from DrugDrugInteraction.argument import config2string
+from DrugDrugInteraction.utils import create_batch_mask, get_roc_score
+from DrugDrugInteraction.data import Dataclass
 from torch_geometric.data import DataLoader
 
 
 class embedder:
 
-    def __init__(self, args, train_df, valid_df, test_df, repeat, fold):
-        self.args = args
-        self.config_str = config2string(args)
+    def __init__(self, train_df, valid_df, test_df, repeat, fold):
+#         self.args = args
+#         self.config_str = config2string(args)
+        self.config_str = 'embedder_CGIB_lr_0.001_batch_size_512_dataset_ZhangDDI_beta_1.0'
         print("\n[Config] {}\n".format(self.config_str))
         
-        if args.writer:
-            self.writer = SummaryWriter(log_dir="runs/{}".format(self.config_str))
-        else:
-            self.writer = SummaryWriter(log_dir="runs_/{}".format(self.config_str))
+#         if args.writer:
+#             self.writer = SummaryWriter(log_dir="runs/{}".format(self.config_str))
+#         else:
+        self.writer = SummaryWriter(log_dir="runs_/{}".format(self.config_str))
 
         # Model Checkpoint Path
-        CHECKPOINT_PATH = "model_checkpoints/{}/".format(args.embedder)
+#         CHECKPOINT_PATH = "model_checkpoints/{}/".format(args.embedder)
+        CHECKPOINT_PATH = "model_checkpoints/CGIB/"
         self.check_dir = CHECKPOINT_PATH + self.config_str + ".pt"
 
         # Select GPU device
-        os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)
-        self.device = f'cuda:{args.device}' if torch.cuda.is_available() else "cpu"
+#         os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)
+#         self.device = f'cuda:{args.device}' if torch.cuda.is_available() else "cpu"
+        os.environ["CUDA_VISIBLE_DEVICES"] = str(0)
+        self.device = f'cuda:{0}' if torch.cuda.is_available() else "cpu"
         torch.cuda.set_device(self.device)
 
         self.train_dataset = Dataclass(train_df)
         self.val_dataset = Dataclass(valid_df)
         self.test_dataset = Dataclass(test_df)
         
-        self.train_loader = DataLoader(self.train_dataset, batch_size = args.batch_size, shuffle=True)
-        self.val_loader = DataLoader(self.val_dataset, batch_size = args.batch_size)
-        self.test_loader = DataLoader(self.test_dataset, batch_size = args.batch_size)
+#         self.train_loader = DataLoader(self.train_dataset, batch_size = args.batch_size, shuffle=True)
+#         self.val_loader = DataLoader(self.val_dataset, batch_size = args.batch_size)
+#         self.test_loader = DataLoader(self.test_dataset, batch_size = args.batch_size)
+        
+        self.train_loader = DataLoader(self.train_dataset, batch_size = 512, shuffle=True)
+        self.val_loader = DataLoader(self.val_dataset, batch_size = 512)
+        self.test_loader = DataLoader(self.test_dataset, batch_size = 512)
 
         self.is_early_stop = False
 

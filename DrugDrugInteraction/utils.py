@@ -16,11 +16,10 @@ def get_stats(array):
     return mean, std
 
 
-def write_summary(args, config_str, stats):
+def write_summary(stats):
     
-    f = open("results/{}/{}.txt".format(args.dataset, args.embedder), "a")
+    f = open("results/{}/{}.txt".format('ZhangDDI', 'CGIB'), "a")
     f.write("--------------------------------------------------------------------------------- \n")
-    f.write(config_str)
     f.write("\n")
     f.write("ROC : {:.4f} || AP : {:.4f} || F1 : {:.4f} || Acc : {:.4f} ".format(stats[0], stats[1], stats[2], stats[3]))
     f.write("\n")
@@ -28,17 +27,40 @@ def write_summary(args, config_str, stats):
     f.close()
 
 
-def write_summary_total(args, config_str, stats):
+def write_summary_total(stats):
     
-    f = open("results/{}/{}_total.txt".format(args.dataset, args.embedder), "a")
+    f = open("results/{}/{}_total.txt".format('ZhangDDI', 'CGIB'), "a")
     f.write("--------------------------------------------------------------------------------- \n")
-    f.write(config_str)
     f.write("\n")
     f.write("ROC : {:.4f}({:.4f}) || AP : {:.4f}({:.4f}) || F1 : {:.4f}({:.4f}) || Acc : {:.4f}({:.4f}) ".format(stats[0], stats[1], stats[2], stats[3],
                                                                                                                                     stats[4], stats[5], stats[6], stats[7]))
     f.write("\n")
     f.write("--------------------------------------------------------------------------------- \n")
     f.close()
+
+# def write_summary(args, config_str, stats):
+    
+#     f = open("results/{}/{}.txt".format(args.dataset, args.embedder), "a")
+#     f.write("--------------------------------------------------------------------------------- \n")
+#     f.write(config_str)
+#     f.write("\n")
+#     f.write("ROC : {:.4f} || AP : {:.4f} || F1 : {:.4f} || Acc : {:.4f} ".format(stats[0], stats[1], stats[2], stats[3]))
+#     f.write("\n")
+#     f.write("--------------------------------------------------------------------------------- \n")
+#     f.close()
+
+
+# def write_summary_total(args, config_str, stats):
+    
+#     f = open("results/{}/{}_total.txt".format(args.dataset, args.embedder), "a")
+#     f.write("--------------------------------------------------------------------------------- \n")
+#     f.write(config_str)
+#     f.write("\n")
+#     f.write("ROC : {:.4f}({:.4f}) || AP : {:.4f}({:.4f}) || F1 : {:.4f}({:.4f}) || Acc : {:.4f}({:.4f}) ".format(stats[0], stats[1], stats[2], stats[3],
+#                                                                                                                                     stats[4], stats[5], stats[6], stats[7]))
+#     f.write("\n")
+#     f.write("--------------------------------------------------------------------------------- \n")
+#     f.close()
 
 
 def write_experiment(args, config_str, best_config):
