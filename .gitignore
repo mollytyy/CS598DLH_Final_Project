@@ -1,5 +1,6 @@
 DrugDrugInteraction/data/processed/
 DrugDrugInteraction/runs_/
+DrugDrugInteraction/layers/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
