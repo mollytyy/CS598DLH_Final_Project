@@ -1,0 +1,21 @@
+Epoch 1: Avg Train Loss: 0.7251348593341771, Avg Valid Loss: 0.7511736639400026, Preservation Rate: 0.0017015133053064346
+Epoch 2: Avg Train Loss: 0.6792521414472096, Avg Valid Loss: 0.7457052842894597, Preservation Rate: 0.00037834682734683156
+Epoch 3: Avg Train Loss: 0.6798943161074795, Avg Valid Loss: 0.7536875854677229, Preservation Rate: 0.0001277671690331772
+Epoch 4: Avg Train Loss: 0.6793849815183611, Avg Valid Loss: 0.7536377915695532, Preservation Rate: 0.00020457978826016188
+Epoch 5: Avg Train Loss: 0.677958283406585, Avg Valid Loss: 0.7494741673789808, Preservation Rate: 0.00011472465848783031
+Epoch 6: Avg Train Loss: 0.676982640775282, Avg Valid Loss: 0.7436925630960891, Preservation Rate: 0.00180821365211159
+Epoch 7: Avg Train Loss: 0.6758963310006839, Avg Valid Loss: 0.7438259026897487, Preservation Rate: 0.023911459371447563
+Epoch 8: Avg Train Loss: 0.6752399206161499, Avg Valid Loss: 0.7565191303616139, Preservation Rate: 0.01742991805076599
+Epoch 9: Avg Train Loss: 0.674099089494392, Avg Valid Loss: 0.7496585325518651, Preservation Rate: 0.004656011238694191
+Epoch 10: Avg Train Loss: 0.6738427850737501, Avg Valid Loss: 0.7523121824905054, Preservation Rate: 0.04077504575252533
+Epoch 11: Avg Train Loss: 0.6770578422653142, Avg Valid Loss: 0.750168481869484, Preservation Rate: 0.008786383084952831
+Epoch 12: Avg Train Loss: 0.6776818050377404, Avg Valid Loss: 0.75274841954459, Preservation Rate: 7.530460607085843e-06
+Epoch 13: Avg Train Loss: 0.6765679516899052, Avg Valid Loss: 0.7457917541710298, Preservation Rate: 0.0
+Epoch 14: Avg Train Loss: 0.6769978159399175, Avg Valid Loss: 0.7477247265737448, Preservation Rate: 0.0
+Epoch 15: Avg Train Loss: 0.6774434865410648, Avg Valid Loss: 0.7547315283497767, Preservation Rate: 0.0
+Epoch 16: Avg Train Loss: 0.6772523331108378, Avg Valid Loss: 0.7443247268449015, Preservation Rate: 0.0
+Epoch 17: Avg Train Loss: 0.6773705851675859, Avg Valid Loss: 0.7455904697304341, Preservation Rate: 0.0
+Epoch 18: Avg Train Loss: 0.677831212086464, Avg Valid Loss: 0.7523243107012848, Preservation Rate: 0.0
+Epoch 19: Avg Train Loss: 0.6771008701466802, Avg Valid Loss: 0.7538089609857815, Preservation Rate: 0.0
+Epoch    19: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 20: Avg Train Loss: 0.6757448288931776, Avg Valid Loss: 0.750850484442355, Preservation Rate: 0.0
