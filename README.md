@@ -27,7 +27,7 @@ Start the notebook and proceed to run the code blocks under `Methodology - Envir
 
 To train the model in the paper:
 
-Continue to run the notebook to load the datasets, define hyperparameters, and define the CGIB model.
+Continue to run the [notebook](DL4LH_Team122.ipynb) to load the datasets, define hyperparameters, and define the CGIB model.
 
 ## Evaluation
 
