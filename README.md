@@ -14,7 +14,7 @@ pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f htt
 ```
 *OR*
 
-Start the notebook and proceed to run the code blocks under `Methodology - Environment`
+Start the notebook [DL4LH_Team122.ipynb](DL4LH_Team122.ipynb) and proceed to run the code blocks under `Methodology - Environment`
 
 ## Data
 (For running the code for the first time)
