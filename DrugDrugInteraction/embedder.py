@@ -21,8 +21,8 @@ class embedder:
     def __init__(self, train_df, valid_df, test_df, repeat, fold):
 #         self.args = args
 #         self.config_str = config2string(args)
-        self.config_str = 'embedder_CGIB_lr_0.001_batch_size_512_dataset_ZhangDDI_beta_1.0'
-        print("\n[Config] {}\n".format(self.config_str))
+        self.config_str = 'embedder_CGIB_ZhangDDI_beta_1.0'
+#         print("\n[Config] {}\n".format(self.config_str))
         
 #         if args.writer:
 #             self.writer = SummaryWriter(log_dir="runs/{}".format(self.config_str))
