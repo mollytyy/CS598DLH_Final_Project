@@ -39,8 +39,8 @@ Our reproduced model achieved the following performance on Drug-Drug Interaction
 
 | Metric             | Original Paper  | Replicated Results |
 | ------------------ |---------------- | ------------------ |
-| AUROC              |     94.74       |        57.52       |
-| Accuracy (%)       |     86.88       |        77.31       |
+| AUROC              |     94.74       |        93.55       |
+| Accuracy (%)       |     86.88       |        86.32       |
 
 
 ## Citation
