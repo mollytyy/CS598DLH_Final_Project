@@ -1,0 +1,60 @@
+[Epoch: 1 (764.7415 sec)] Valid ROC: 0.5630 / AP: 0.4412 / F1: 0.0000 / Acc: 0.6012 || Test ROC: 0.5690 / AP: 0.4520 / F1: 0.0000 / Acc: 0.5972 
+[Best ROC Epoch: 1] Best Valid ROC: 0.5630 / AP: 0.4412 || Best Test ROC: 0.5690 / AP: 0.4520 
+[Best F1 Epoch: 1] Best Valid F1: 0.0000 / Acc: 0.6012 || Best Test F1: 0.0000 / Acc: 0.5972 
+[Epoch: 2 (998.6793 sec)] Valid ROC: 0.6073 / AP: 0.4907 / F1: 0.1020 / Acc: 0.6078 || Test ROC: 0.6092 / AP: 0.4949 / F1: 0.1058 / Acc: 0.6053 
+[Best ROC Epoch: 2] Best Valid ROC: 0.6073 / AP: 0.4907 || Best Test ROC: 0.6092 / AP: 0.4949 
+[Best F1 Epoch: 2] Best Valid F1: 0.1020 / Acc: 0.6078 || Best Test F1: 0.1058 / Acc: 0.6053 
+[Epoch: 3 (895.1797 sec)] Valid ROC: 0.6708 / AP: 0.5429 / F1: 0.5152 / Acc: 0.6359 || Test ROC: 0.6660 / AP: 0.5412 / F1: 0.5179 / Acc: 0.6333 
+[Best ROC Epoch: 3] Best Valid ROC: 0.6708 / AP: 0.5429 || Best Test ROC: 0.6660 / AP: 0.5412 
+[Best F1 Epoch: 3] Best Valid F1: 0.5152 / Acc: 0.6359 || Best Test F1: 0.5179 / Acc: 0.6333 
+[Epoch: 4 (805.9877 sec)] Valid ROC: 0.7344 / AP: 0.6340 / F1: 0.3371 / Acc: 0.6556 || Test ROC: 0.7322 / AP: 0.6390 / F1: 0.3393 / Acc: 0.6548 
+[Best ROC Epoch: 4] Best Valid ROC: 0.7344 / AP: 0.6340 || Best Test ROC: 0.7322 / AP: 0.6390 
+[Best F1 Epoch: 4] Best Valid F1: 0.3371 / Acc: 0.6556 || Best Test F1: 0.3393 / Acc: 0.6548 
+[Epoch: 5 (693.1945 sec)] Valid ROC: 0.7962 / AP: 0.7180 / F1: 0.6782 / Acc: 0.7094 || Test ROC: 0.7918 / AP: 0.7181 / F1: 0.6762 / Acc: 0.7071 
+[Best ROC Epoch: 5] Best Valid ROC: 0.7962 / AP: 0.7180 || Best Test ROC: 0.7918 / AP: 0.7181 
+[Best F1 Epoch: 5] Best Valid F1: 0.6782 / Acc: 0.7094 || Best Test F1: 0.6762 / Acc: 0.7071 
+[Epoch: 6 (721.9184 sec)] Valid ROC: 0.8403 / AP: 0.7822 / F1: 0.6583 / Acc: 0.7630 || Test ROC: 0.8405 / AP: 0.7878 / F1: 0.6562 / Acc: 0.7606 
+[Best ROC Epoch: 6] Best Valid ROC: 0.8403 / AP: 0.7822 || Best Test ROC: 0.8405 / AP: 0.7878 
+[Best F1 Epoch: 6] Best Valid F1: 0.6583 / Acc: 0.7630 || Best Test F1: 0.6562 / Acc: 0.7606 
+[Epoch: 7 (686.5948 sec)] Valid ROC: 0.8768 / AP: 0.8354 / F1: 0.7442 / Acc: 0.8010 || Test ROC: 0.8763 / AP: 0.8362 / F1: 0.7432 / Acc: 0.7992 
+[Best ROC Epoch: 7] Best Valid ROC: 0.8768 / AP: 0.8354 || Best Test ROC: 0.8763 / AP: 0.8362 
+[Best F1 Epoch: 7] Best Valid F1: 0.7442 / Acc: 0.8010 || Best Test F1: 0.7432 / Acc: 0.7992 
+[Epoch: 8 (742.1419 sec)] Valid ROC: 0.8947 / AP: 0.8623 / F1: 0.7685 / Acc: 0.8190 || Test ROC: 0.8944 / AP: 0.8620 / F1: 0.7695 / Acc: 0.8187 
+[Best ROC Epoch: 8] Best Valid ROC: 0.8947 / AP: 0.8623 || Best Test ROC: 0.8944 / AP: 0.8620 
+[Best F1 Epoch: 8] Best Valid F1: 0.7685 / Acc: 0.8190 || Best Test F1: 0.7695 / Acc: 0.8187 
+[Epoch: 9 (767.0225 sec)] Valid ROC: 0.9001 / AP: 0.8658 / F1: 0.7784 / Acc: 0.8214 || Test ROC: 0.8965 / AP: 0.8631 / F1: 0.7764 / Acc: 0.8187 
+[Best ROC Epoch: 9] Best Valid ROC: 0.9001 / AP: 0.8658 || Best Test ROC: 0.8965 / AP: 0.8631 
+[Best F1 Epoch: 9] Best Valid F1: 0.7784 / Acc: 0.8214 || Best Test F1: 0.7764 / Acc: 0.8187 
+[Epoch: 10 (943.2736 sec)] Valid ROC: 0.9172 / AP: 0.8912 / F1: 0.7914 / Acc: 0.8430 || Test ROC: 0.9170 / AP: 0.8930 / F1: 0.7911 / Acc: 0.8411 
+[Best ROC Epoch: 10] Best Valid ROC: 0.9172 / AP: 0.8912 || Best Test ROC: 0.9170 / AP: 0.8930 
+[Best F1 Epoch: 10] Best Valid F1: 0.7914 / Acc: 0.8430 || Best Test F1: 0.7911 / Acc: 0.8411 
+[Epoch: 11 (643.3799 sec)] Valid ROC: 0.9217 / AP: 0.8983 / F1: 0.7956 / Acc: 0.8466 || Test ROC: 0.9190 / AP: 0.8971 / F1: 0.7904 / Acc: 0.8419 
+[Best ROC Epoch: 11] Best Valid ROC: 0.9217 / AP: 0.8983 || Best Test ROC: 0.9190 / AP: 0.8971 
+[Best F1 Epoch: 11] Best Valid F1: 0.7956 / Acc: 0.8466 || Best Test F1: 0.7904 / Acc: 0.8419 
+[Epoch: 12 (652.8865 sec)] Valid ROC: 0.9271 / AP: 0.9054 / F1: 0.8149 / Acc: 0.8482 || Test ROC: 0.9241 / AP: 0.9039 / F1: 0.8156 / Acc: 0.8481 
+[Best ROC Epoch: 12] Best Valid ROC: 0.9271 / AP: 0.9054 || Best Test ROC: 0.9241 / AP: 0.9039 
+[Best F1 Epoch: 12] Best Valid F1: 0.8149 / Acc: 0.8482 || Best Test F1: 0.8156 / Acc: 0.8481 
+[Epoch: 13 (665.7499 sec)] Valid ROC: 0.9284 / AP: 0.9080 / F1: 0.8193 / Acc: 0.8519 || Test ROC: 0.9262 / AP: 0.9076 / F1: 0.8157 / Acc: 0.8476 
+[Best ROC Epoch: 13] Best Valid ROC: 0.9284 / AP: 0.9080 || Best Test ROC: 0.9262 / AP: 0.9076 
+[Best F1 Epoch: 13] Best Valid F1: 0.8193 / Acc: 0.8519 || Best Test F1: 0.8157 / Acc: 0.8476 
+[Epoch: 14 (860.9068 sec)] Valid ROC: 0.9284 / AP: 0.9072 / F1: 0.8183 / Acc: 0.8525 || Test ROC: 0.9276 / AP: 0.9087 / F1: 0.8169 / Acc: 0.8509 
+[Best ROC Epoch: 14] Best Valid ROC: 0.9284 / AP: 0.9072 || Best Test ROC: 0.9276 / AP: 0.9087 
+[Best F1 Epoch: 14] Best Valid F1: 0.8183 / Acc: 0.8525 || Best Test F1: 0.8169 / Acc: 0.8509 
+[Epoch: 15 (840.7465 sec)] Valid ROC: 0.9335 / AP: 0.9146 / F1: 0.8234 / Acc: 0.8632 || Test ROC: 0.9318 / AP: 0.9149 / F1: 0.8220 / Acc: 0.8611 
+[Best ROC Epoch: 15] Best Valid ROC: 0.9335 / AP: 0.9146 || Best Test ROC: 0.9318 / AP: 0.9149 
+[Best F1 Epoch: 15] Best Valid F1: 0.8234 / Acc: 0.8632 || Best Test F1: 0.8220 / Acc: 0.8611 
+[Epoch: 16 (840.1719 sec)] Valid ROC: 0.9325 / AP: 0.9138 / F1: 0.8219 / Acc: 0.8515 || Test ROC: 0.9311 / AP: 0.9131 / F1: 0.8249 / Acc: 0.8525 
+[Best ROC Epoch: 15] Best Valid ROC: 0.9335 / AP: 0.9146 || Best Test ROC: 0.9318 / AP: 0.9149 
+[Best F1 Epoch: 15] Best Valid F1: 0.8234 / Acc: 0.8632 || Best Test F1: 0.8220 / Acc: 0.8611 
+[Epoch: 17 (756.8252 sec)] Valid ROC: 0.9333 / AP: 0.9146 / F1: 0.8253 / Acc: 0.8577 || Test ROC: 0.9325 / AP: 0.9156 / F1: 0.8246 / Acc: 0.8559 
+[Best ROC Epoch: 15] Best Valid ROC: 0.9335 / AP: 0.9146 || Best Test ROC: 0.9318 / AP: 0.9149 
+[Best F1 Epoch: 15] Best Valid F1: 0.8234 / Acc: 0.8632 || Best Test F1: 0.8220 / Acc: 0.8611 
+[Epoch: 18 (697.5907 sec)] Valid ROC: 0.9335 / AP: 0.9147 / F1: 0.8153 / Acc: 0.8597 || Test ROC: 0.9331 / AP: 0.9162 / F1: 0.8179 / Acc: 0.8608 
+[Best ROC Epoch: 18] Best Valid ROC: 0.9335 / AP: 0.9147 || Best Test ROC: 0.9331 / AP: 0.9162 
+[Best F1 Epoch: 15] Best Valid F1: 0.8234 / Acc: 0.8632 || Best Test F1: 0.8220 / Acc: 0.8611 
+[Epoch: 19 (726.6843 sec)] Valid ROC: 0.9355 / AP: 0.9179 / F1: 0.8268 / Acc: 0.8564 || Test ROC: 0.9346 / AP: 0.9189 / F1: 0.8289 / Acc: 0.8569 
+[Best ROC Epoch: 19] Best Valid ROC: 0.9355 / AP: 0.9179 || Best Test ROC: 0.9346 / AP: 0.9189 
+[Best F1 Epoch: 15] Best Valid F1: 0.8234 / Acc: 0.8632 || Best Test F1: 0.8220 / Acc: 0.8611 
+[Epoch: 20 (690.1248 sec)] Valid ROC: 0.9332 / AP: 0.9151 / F1: 0.8216 / Acc: 0.8562 || Test ROC: 0.9308 / AP: 0.9144 / F1: 0.8246 / Acc: 0.8575 
+[Best ROC Epoch: 19] Best Valid ROC: 0.9355 / AP: 0.9179 || Best Test ROC: 0.9346 / AP: 0.9189 
+[Best F1 Epoch: 15] Best Valid F1: 0.8234 / Acc: 0.8632 || Best Test F1: 0.8220 / Acc: 0.8611 
